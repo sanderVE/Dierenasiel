@@ -58,11 +58,11 @@ namespace Dierenasiel
 
         public Hond geefHondWeer(String naam)
         {
-            for(int i = 0; i < honden.Count(); i++)
+            foreach(Hond element in honden)
             {
-                if (honden[i].Naam == naam)
+                if (element.Naam == naam)
                 {
-                    return honden[i];
+                    return element;
                 }
             }
             return null;
@@ -70,20 +70,14 @@ namespace Dierenasiel
 
         public Kat geefKatWeer(String naam)
         {
-            for (int i = 0; i < katten.Count(); i++)
+            foreach(Kat element in katten)
             {
-                if (katten[i].Naam == naam)
+                if(element.Naam == naam)
                 {
-                    return katten[i];
+                    return element;
                 }
             }
             return null;
         }
-
-
-//        public List<> geefDierenweer()
-//        {
-//            return
-//        }
     }
 }
