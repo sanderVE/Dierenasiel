@@ -1,2 +1,10 @@
 C:\Users\Sander\Documents\Fontys\SE\Dierenasiel\Dierenasiel\bin\Debug\Dierenasiel.exe.config
 C:\Users\Sander\Documents\GitHubVisualStudio\Dierenasiel\Dierenasiel\bin\Debug\Dierenasiel.exe.config
+C:\Users\Sander\Documents\GitHubVisualStudio\Dierenasiel\Dierenasiel\obj\Debug\Dierenasiel.csprojResolveAssemblyReference.cache
+C:\Users\Sander\Documents\GitHubVisualStudio\Dierenasiel\Dierenasiel\obj\Debug\Dierenasiel.Form1.resources
+C:\Users\Sander\Documents\GitHubVisualStudio\Dierenasiel\Dierenasiel\obj\Debug\Dierenasiel.Properties.Resources.resources
+C:\Users\Sander\Documents\GitHubVisualStudio\Dierenasiel\Dierenasiel\obj\Debug\Dierenasiel.csproj.GenerateResource.Cache
+C:\Users\Sander\Documents\GitHubVisualStudio\Dierenasiel\Dierenasiel\bin\Debug\Dierenasiel.exe
+C:\Users\Sander\Documents\GitHubVisualStudio\Dierenasiel\Dierenasiel\bin\Debug\Dierenasiel.pdb
+C:\Users\Sander\Documents\GitHubVisualStudio\Dierenasiel\Dierenasiel\obj\Debug\Dierenasiel.exe
+C:\Users\Sander\Documents\GitHubVisualStudio\Dierenasiel\Dierenasiel\obj\Debug\Dierenasiel.pdb

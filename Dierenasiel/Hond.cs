@@ -6,18 +6,10 @@ using System.Threading.Tasks;
 
 namespace Dierenasiel
 {
-    public class Hond
+    public class Hond : Dier
     {
-        private String naam;
+        //variablen
         private String laatstUitgelaten;
-        private Eigenaar eigenaar;
-        private Boolean gereserveerd;
-
-        public String Naam
-        {
-            get { return naam; }
-            set { naam = value; }
-        }
 
         public String LaatstUitgelaten
         {
@@ -25,22 +17,15 @@ namespace Dierenasiel
             set { laatstUitgelaten = value; }
         }
 
-        public Boolean Gereserveerd
-        {
-            get {return gereserveerd; }
-            set {gereserveerd = value; }
-        }
-
-        public Eigenaar Eigenaar
-        {
-            get { return eigenaar; }
-            set { eigenaar = value; }
-        }
-
         //constructor
-        public Hond(String naam)
+        public Hond(String naam) : base(naam)
         {
-            this.naam = naam;
+            
+        }
+
+        public void veranderLaatstUitgelaten(String uitgelaten)
+        {
+            laatstUitgelaten = uitgelaten;
         }
     }
 }

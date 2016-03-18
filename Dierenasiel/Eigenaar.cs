@@ -31,7 +31,7 @@ namespace Dierenasiel
         //constructor
         public Eigenaar(String naam)
         {
-            this.naam = naam
+            this.naam = naam;
         }
 
         public void voegHondToe(Hond hond)

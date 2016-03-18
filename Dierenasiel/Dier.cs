@@ -33,6 +33,7 @@ namespace Dierenasiel
         public Dier(String naam)
         {
             this.naam = naam;
+            gereserveerd = false;
         }
     }
 }
