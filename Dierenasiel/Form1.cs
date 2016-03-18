@@ -19,7 +19,7 @@ namespace Dierenasiel
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Hond hond = new Hond("a");
+            Hond hond = new Hond(tbHondNaam.Text);
         }
     }
 }
