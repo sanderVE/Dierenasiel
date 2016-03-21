@@ -34,6 +34,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tbKatNaam = new System.Windows.Forms.TextBox();
             this.btnVoegKatToe = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnVoegHondToe
@@ -44,7 +46,7 @@
             this.btnVoegHondToe.TabIndex = 0;
             this.btnVoegHondToe.Text = "Voeg hond toe";
             this.btnVoegHondToe.UseVisualStyleBackColor = true;
-            this.btnVoegHondToe.Click += new System.EventHandler(this.button1_Click);
+            this.btnVoegHondToe.Click += new System.EventHandler(this.btnVoegHondToe_Click);
             // 
             // tbHondNaam
             // 
@@ -86,12 +88,33 @@
             this.btnVoegKatToe.TabIndex = 3;
             this.btnVoegKatToe.Text = "Voeg kat toe";
             this.btnVoegKatToe.UseVisualStyleBackColor = true;
+            this.btnVoegKatToe.Click += new System.EventHandler(this.btnVoegKatToe_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(12, 88);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(132, 134);
+            this.listBox1.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(222, 128);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(371, 261);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbKatNaam);
             this.Controls.Add(this.btnVoegKatToe);
@@ -113,6 +136,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbKatNaam;
         private System.Windows.Forms.Button btnVoegKatToe;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
