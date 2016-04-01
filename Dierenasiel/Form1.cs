@@ -33,7 +33,15 @@ namespace Dierenasiel
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            foreach (Dier element in asiel.Dieren)
+            {
+                    listView1.Items.Add(element.Naam + " " + element.Gereserveerd + " " + element.Eigenaar);
+            }
+        }
+
+        private void btnReserveer_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

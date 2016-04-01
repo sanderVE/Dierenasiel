@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dierenasiel
 {
-    public class Dier
+    public abstract class Dier
     {
         private String naam;
         private Eigenaar eigenaar;

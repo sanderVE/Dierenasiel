@@ -9,23 +9,16 @@ namespace Dierenasiel
     public class Eigenaar
     {
         private String naam;
-        private List<Hond> honden;
-        private List<Kat> katten;
-
+        private List<Dier> dieren;
         public String Naam
         {
             get {return naam; }
             set {naam = value; }
         }
 
-        public List<Hond> Honden
+        public List<Dier> Dieren
         {
-            get {return honden; }
-        }
-
-        public List<Hond> Katten
-        {
-            get { return honden; }
+            get {return dieren; }
         }
 
         //constructor
@@ -36,12 +29,12 @@ namespace Dierenasiel
 
         public void voegHondToe(Hond hond)
         {
-            honden.Add(hond);
+            dieren.Add(hond);
         }
 
         public void voegKatToe(Kat kat)
         {
-            katten.Add(kat);
+            dieren.Add(kat);
         }
 
         public void reserveerHond(Hond hond)

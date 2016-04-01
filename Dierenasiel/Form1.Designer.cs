@@ -34,8 +34,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tbKatNaam = new System.Windows.Forms.TextBox();
             this.btnVoegKatToe = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOverzicht = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnReserveer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnVoegHondToe
@@ -90,31 +95,78 @@
             this.btnVoegKatToe.UseVisualStyleBackColor = true;
             this.btnVoegKatToe.Click += new System.EventHandler(this.btnVoegKatToe_Click);
             // 
-            // listBox1
+            // btnOverzicht
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 88);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(132, 134);
-            this.listBox1.TabIndex = 6;
+            this.btnOverzicht.Location = new System.Drawing.Point(12, 240);
+            this.btnOverzicht.Name = "btnOverzicht";
+            this.btnOverzicht.Size = new System.Drawing.Size(151, 23);
+            this.btnOverzicht.TabIndex = 7;
+            this.btnOverzicht.Text = "Laat dieren zien";
+            this.btnOverzicht.UseVisualStyleBackColor = true;
+            this.btnOverzicht.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button1
+            // listView1
             // 
-            this.button1.Location = new System.Drawing.Point(222, 128);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.listView1.Location = new System.Drawing.Point(12, 88);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(151, 146);
+            this.listView1.TabIndex = 8;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(239, 88);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(121, 20);
+            this.textBox1.TabIndex = 9;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(239, 129);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(121, 20);
+            this.textBox2.TabIndex = 10;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(181, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Eigenaar";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(181, 132);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Dier";
+            // 
+            // btnReserveer
+            // 
+            this.btnReserveer.Location = new System.Drawing.Point(184, 162);
+            this.btnReserveer.Name = "btnReserveer";
+            this.btnReserveer.Size = new System.Drawing.Size(176, 23);
+            this.btnReserveer.TabIndex = 13;
+            this.btnReserveer.Text = "Reserveer";
+            this.btnReserveer.UseVisualStyleBackColor = true;
+            this.btnReserveer.Click += new System.EventHandler(this.btnReserveer_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(371, 261);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.listBox1);
+            this.ClientSize = new System.Drawing.Size(492, 274);
+            this.Controls.Add(this.btnReserveer);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.btnOverzicht);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbKatNaam);
             this.Controls.Add(this.btnVoegKatToe);
@@ -136,8 +188,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbKatNaam;
         private System.Windows.Forms.Button btnVoegKatToe;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOverzicht;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnReserveer;
     }
 }
 

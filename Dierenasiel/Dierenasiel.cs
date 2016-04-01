@@ -9,8 +9,7 @@ namespace Dierenasiel
     public class Dierenasiel
     {
         private String naam;
-        private List<Hond> honden;
-        private List<Kat> katten;
+        private List<Dier> dieren;
 
         public String Naam
         {
@@ -18,47 +17,43 @@ namespace Dierenasiel
             set { naam = value; }
         }
 
-        public List<Hond> Honden
+        public List<Dier> Dieren
         {
-            get {return honden; }
-        }
-
-        public List<Kat> Katten
-        {
-            get { return katten; }
+            get {return dieren; }
         }
 
         //constructor
         public Dierenasiel(String naam)
         {
             this.naam = naam;
+            dieren = new List<Dier>();
         }
 
 
 
         public void voegHondToe(Hond hond)
         {
-            honden.Add(hond);
+            dieren.Add(hond);
         }
 
         public void voegKatToe(Kat kat)
         {
-            katten.Add(kat);
+            dieren.Add(kat);
         }
 
         public void verwijderHond(Hond hond)
         {
-            honden.Remove(hond);
+            dieren.Remove(hond);
         }
 
         public void verwijderKat(Kat kat)
         {
-            katten.Remove(kat);
+            dieren.Remove(kat);
         }
 
-        public Hond geefHondWeer(String naam)
+        public Dier geefDierWeer(String naam)
         {
-            foreach(Hond element in honden)
+            foreach(Dier element in dieren)
             {
                 if (element.Naam == naam)
                 {
@@ -68,16 +63,9 @@ namespace Dierenasiel
             return null;
         }
 
-        public Kat geefKatWeer(String naam)
+        public void reserveerHond()
         {
-            foreach(Kat element in katten)
-            {
-                if(element.Naam == naam)
-                {
-                    return element;
-                }
-            }
-            return null;
+
         }
     }
 }
