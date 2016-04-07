@@ -55,7 +55,7 @@ namespace Dierenasiel
         {
             foreach(Dier element in dieren)
             {
-                if (element.Naam == naam)
+                if (element.naam == naam)
                 {
                     return element;
                 }

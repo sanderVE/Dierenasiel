@@ -10,7 +10,7 @@ namespace Dierenasiel.Test
         public void HondNaam()
         {
             Hond hond = new Hond("hond");
-            Assert.AreEqual("hond", hond.Naam);
+            Assert.AreEqual("hond", hond.naam);
         }
 
         [TestMethod]

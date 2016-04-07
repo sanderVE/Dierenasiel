@@ -6,17 +6,12 @@ using System.Threading.Tasks;
 
 namespace Dierenasiel
 {
-    public abstract class Dier
+    public abstract class Dier : ISellable
     {
-        private String naam;
+        public string naam { get; private set; }
         private Eigenaar eigenaar;
         private Boolean gereserveerd;
-
-        public String Naam
-        {
-            get { return naam; }
-            set { naam = value; }
-        }
+        public decimal prijs { get; set; }
 
         public Boolean Gereserveerd
         {
@@ -34,6 +29,11 @@ namespace Dierenasiel
         {
             this.naam = naam;
             gereserveerd = false;
+        }
+
+        public override string ToString()
+        {
+            return naam + " " + prijs;
         }
     }
 }

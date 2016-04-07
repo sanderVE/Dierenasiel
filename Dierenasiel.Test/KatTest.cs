@@ -10,7 +10,7 @@ namespace Dierenasiel.Test
         public void KatNaam()
         {
             Kat kat = new Kat("kat");
-            Assert.AreEqual("kat", kat.Naam);
+            Assert.AreEqual("kat", kat.naam);
         }
 
         [TestMethod]
